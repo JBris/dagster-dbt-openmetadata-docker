@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "dagster-dbt-openmetadata-docker"
+version = "0.1.0"
+description = ""
+authors = ["James Bristow <jbris@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+dbt-core = "<1.9"
+dbt-postgres = "^1.9.0"
+psycopg2-binary = "^2.9.10"
+dagster = "^1.9.6"
+dagster-webserver = "^1.9.6"
+dagster-postgres = "^0.25.6"
+dagster-docker = "^0.25.6"
+dagster-graphql = "^1.9.6"
+dbt-duckdb = "^1.9.1"
+boto3 = "^1.35.88"
+botocore = "^1.35.88"
+dagster-dbt = "^0.25.6"
+dagster-duckdb-pandas = "^0.25.6"
+scipy = "^1.14.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
